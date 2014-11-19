@@ -1,6 +1,7 @@
 <?php
 /**
  * Script to get titles from a web pages defined in an input list.
+ * This is free and unencumbered software released into the public domain.
  */
 
 $input_file = 'urls.txt';
@@ -15,6 +16,8 @@ foreach ($url_list as $url) {
   if (!empty($html)) {
     $doc->loadHTML($html);
     libxml_clear_errors();
+    // Get all the <title> elements, regardless of
+    // location in the document.
     $xpath = new DOMXPath($doc);
     $titles = $xpath->query('//title');
     if ($titles->length > 0){

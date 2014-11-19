@@ -1,5 +1,6 @@
 """
 Script to get titles from a web pages defined in an input list.
+This is free and unencumbered software released into the public domain.
 """
 
 from bs4 import BeautifulSoup
