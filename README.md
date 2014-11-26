@@ -1,7 +1,7 @@
 Web Scraping for Fun and Profit
 ===============================
 
-Code samples used during my lightning talk at [code4lib BC](http://wiki.code4lib.org/BC), November 2014.
+Code samples used during my lightning talk at [code4lib BC](http://wiki.code4lib.org/BC), November 2014. The [slidedeck](https://dl.dropboxusercontent.com/u/1015702/linked_to/Web%20Scraping%20for%20Fun%20and%20Profit.pdf) from the talk is also availabl.e
 
 To clone this repo, run the following command:
 
